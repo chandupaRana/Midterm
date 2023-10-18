@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import AddProduct from './AppProduct.jsx'; // Import the AddProduct component
+import AddProduct from './AppProduct.jsx'; 
+import SignUpUser from './SignUpUser.jsx'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
-        <AddProduct /> {/* Use the AddProduct component here */}
+      <SignUpUser /> {}
+        <AddProduct /> {}
       </header>
     </div>
   );
